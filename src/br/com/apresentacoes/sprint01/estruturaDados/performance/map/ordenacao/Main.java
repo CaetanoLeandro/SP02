@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.performanceDataStructure.map.ordenacao;
+package br.com.apresentacoes.sprint01.estruturaDados.performance.map.ordenacao;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

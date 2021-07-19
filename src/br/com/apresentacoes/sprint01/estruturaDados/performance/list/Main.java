@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.performanceDataStructure.list;
+package br.com.apresentacoes.sprint01.estruturaDados.performance.list;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

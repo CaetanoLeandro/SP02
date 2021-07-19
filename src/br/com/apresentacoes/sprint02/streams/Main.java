@@ -27,7 +27,7 @@ public class Main {
                 .filter(e -> e % 2 == 0) // filtra os elementos baseado a uma condicao dada no parametro, representada em expressao lambda
                 .map(x -> x + 10) // aplica uma funcao a cada elemento da stream // nesse exemplo, soma-se 10
                 .sorted(Comparator.naturalOrder()) // classifica os elementos utilizando comparador // nesse caso menor ao maior
-                .peek()
+                //.peek()
                 // operacoes final
                 .forEach(System.out::println); // method reference
 
