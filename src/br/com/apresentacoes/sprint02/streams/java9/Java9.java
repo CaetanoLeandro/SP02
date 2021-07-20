@@ -17,7 +17,7 @@ public class Java9 {
         List<Integer> list1 = stream1.dropWhile(number -> number <= 22).collect(Collectors.toList());
         System.out.println(list1);
 
-        
+
         // ofNullable = retorna uma stream com o elemento informado ou uma stream vazia caso o elemento seja nulo.
         System.out.println("Apresentando ofNullable");
         int count = (int) Stream.ofNullable(5).count();
