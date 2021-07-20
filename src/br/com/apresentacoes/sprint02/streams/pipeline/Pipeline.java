@@ -44,11 +44,12 @@ public class Pipeline {
                         .map(Pessoa::getNome)
                         // operacoes finais
                         .collect(Collectors.toList()); // coleta os elementos e retorna uma lista
+
         System.out.println(pessoas2);
 
 
         // Outros metodos
-        List<Integer> lista = Arrays.asList(2,3,3,7,4,95,100,23,1);
+        List<Integer> lista = Arrays.asList(2, 3, 3, 7, 4, 95, 100, 23, 1);
 
         lista.stream()
 

@@ -32,16 +32,11 @@ public class StreamComoCriar {
                 .forEach(System.out::println);
 
 
-
-
-
-        // Stream.iterate = introduzir limite, ou loop infinito // recebe um Seed(semente valor inicial)
-        Stream.iterate(5, n -> n * 2)
-                .limit(10)
+        // Stream.iterate = itera os elementos da stream até a condicao especificada
+        // seed = elemento inicial
+        Stream.iterate(1, n -> n + 1)
+                .limit(10)         // sem impor limite, vai criar loop infinito
                 .forEach(System.out::println);
 
-        // iterate(final T seed, final UnaryOperator<T> f
-        // unaryOperator
-        // predicate
     }
 }
