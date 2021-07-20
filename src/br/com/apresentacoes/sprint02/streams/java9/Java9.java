@@ -25,7 +25,7 @@ public class Java9 {
 
         // of = single element or values
         System.out.println("Apresentando of single");
-        int count1 = (int) Stream.of(null).count();
+        int count1 = (int) Stream.of(5).count();
         System.out.println(count1);
 
         System.out.println("Apresentando of values");
