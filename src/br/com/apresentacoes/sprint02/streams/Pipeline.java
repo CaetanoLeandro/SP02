@@ -36,7 +36,7 @@ public class Pipeline {
 
                 // operacoes final
                .forEach(System.out::println); // method reference
-                //.count();
+                //.count();   // retorna a quantidade de elementos da stream
 
 
 
