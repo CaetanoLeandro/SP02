@@ -28,6 +28,6 @@ public class Main {
                 .collect(Collectors.toList());
 
         System.out.println(nomesReduzidos);
-        
+
     }
 }
