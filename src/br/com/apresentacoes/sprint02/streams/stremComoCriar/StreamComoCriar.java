@@ -12,6 +12,7 @@ public class StreamComoCriar {
             list.add("Dois");
             list.add("Tres");
         Stream<String> stream = list.stream();
+        System.out.println(stream);
 
 
         // Criação de uma stream a partir de um Map.
@@ -37,6 +38,18 @@ public class StreamComoCriar {
         Stream.iterate(1, n -> n + 1)
                 .limit(10)         // sem impor limite, vai criar loop infinito
                 .forEach(System.out::println);
+
+
+        // Criacao de stream usando Stream builder()
+        Stream.Builder<String> builder = Stream.builder();
+        // Adding elements in the stream of Strings
+        Stream<String> stream2 = builder
+                .add("A")
+                .add("B")
+                .add("C")
+                .build();
+        stream2.forEach(System.out::println);
+
 
     }
 }
