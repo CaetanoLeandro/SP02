@@ -11,8 +11,8 @@ public class Main {
         System.out.println(b.hashCode());
 
 
-        // hashcode é mais rapido de ser calculado, porem nao é 100% efetivo
+        // hashcode é mais rapido de ser calculado, porém nao é 100% efetivo, retorna hash
 
-        // equals é mais lento, porem é 100% efetivo
+        // equals é mais lento, porém é 100% efetivo, retorna true ou false
     }
 }
