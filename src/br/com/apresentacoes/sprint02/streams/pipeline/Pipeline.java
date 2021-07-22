@@ -40,7 +40,6 @@ public class Pipeline {
                         .filter(p -> p.getIdade() < 25)
                         .sorted(Comparator.comparing(Pessoa::getNome))
                         .limit(3)
-                        .sorted()
                         .map(Pessoa::getNome)
                         // operacoes finais
                         .collect(Collectors.toList()); // coleta os elementos e retorna uma lista

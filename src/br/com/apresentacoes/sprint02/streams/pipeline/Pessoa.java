@@ -1,6 +1,7 @@
 package br.com.apresentacoes.sprint02.streams.pipeline;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.List;
@@ -8,8 +9,7 @@ import static java.util.Arrays.asList;
 
 
 @AllArgsConstructor
-@Getter
-@Setter
+@Data
 public class Pessoa implements Comparable<Pessoa>{
     private String nome;
     private int idade;
