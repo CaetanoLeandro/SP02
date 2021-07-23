@@ -20,7 +20,7 @@ public class Main {
         list.removeIf(p -> p.getPrice() >= 100);
 
 
-        // predicado implementado manualmente
+        // argumento de Predicate é uma instancia de ProductPredicate
         list.removeIf(new ProductPredicate());
 
 

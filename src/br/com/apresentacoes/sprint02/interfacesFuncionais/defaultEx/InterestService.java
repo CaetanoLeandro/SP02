@@ -3,7 +3,7 @@ package br.com.apresentacoes.sprint02.interfacesFuncionais.defaultEx;
 import java.security.InvalidParameterException;
 
 @FunctionalInterface
-public interface InterestService {
+public interface InterestService{
 
     double getInterestRate();
 
