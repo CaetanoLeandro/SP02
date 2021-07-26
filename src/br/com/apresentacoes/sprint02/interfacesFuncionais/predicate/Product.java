@@ -13,4 +13,5 @@ public class Product {
     public String toString() {
         return "Product { Name: "+ this.name+ String.format(" Price: %.2f }", this.price);
     }
+
 }
