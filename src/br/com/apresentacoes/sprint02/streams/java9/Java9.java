@@ -20,12 +20,12 @@ public class Java9 {
 
         // ofNullable = retorna uma stream com o elemento informado ou uma stream vazia caso o elemento seja nulo.
         System.out.println("Apresentando ofNullable");
-        int count = (int) Stream.ofNullable(5).count();
+        int count = (int) Stream.ofNullable(null).count();
         System.out.println(count);
 
         // of = single element or values
         System.out.println("Apresentando of single");
-        int count1 = (int) Stream.of(5).count();
+        int count1 = (int) Stream.of(null).count();
         System.out.println(count1);
 
         System.out.println("Apresentando of values");

@@ -21,7 +21,7 @@ public class Main{
         list.forEach(p -> p.setPrice(p.getPrice() * 1.1));
 
         // forEach percorre a lista aplicando o Consumer que é uma instancia de PriceUpdate
-        // list.forEach(new PriceUpdate());
+        list.forEach(new PriceUpdate());
 
         // method reference
         list.forEach(System.out::println);

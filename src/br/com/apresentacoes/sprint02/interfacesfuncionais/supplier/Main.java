@@ -12,10 +12,13 @@ public class Main {
         LocalDate time = s.get();
         System.out.println(time);
 
+
+
+
         // utilizando supplier como argumento no metodo generate()
-        Stream.generate(LocalDate::now).
-                limit(1).
-                forEach(System.out::println);
+        Stream.generate(LocalDate::now)
+                .limit(1)
+                .forEach(System.out::println);
 
     }
 }

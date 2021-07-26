@@ -11,12 +11,8 @@ public class Pipeline {
 
         // Java 7
         List<Pessoa> pessoas = Pessoa.bancoDeDados();
-        Collections.sort(pessoas, new Comparator<Pessoa>() {      // aceita lambda
-            @Override
-            public int compare(Pessoa o1, Pessoa o2) {
-                return o1.getNome().compareTo(o2.getNome());
-            }
-        });
+        // aceita lambda
+        Collections.sort(pessoas, (o1, o2) -> o1.getNome().compareTo(o2.getNome()));
 
         List<String> nomes = new ArrayList<>();
         for (Pessoa pessoa : pessoas) {
@@ -51,7 +47,6 @@ public class Pipeline {
         List<Integer> lista = Arrays.asList(2, 3, 3, 7, 4, 95, 100, 23, 1);
 
         lista.stream()
-
                 //operacoes intermediarias
                 .skip(4)    // pula os elementos de acordo com o parametro
                 .limit(5)   // limita o stream a "n" elementos // short-circuinting
