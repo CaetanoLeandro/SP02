@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.generics.classes;
+package br.com.apresentacoes.sprint02.generics.classes.grades;
 
 public class Main {
     public static void main(String[] args) {

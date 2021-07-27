@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.generics.classes;
+package br.com.apresentacoes.sprint02.generics.classes.grades;
 
 import java.util.ArrayList;
 import java.util.List;
