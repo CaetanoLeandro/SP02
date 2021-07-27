@@ -8,4 +8,5 @@ import lombok.Data;
 public class HomeWorkGrade extends Grade{
     private String studentName;
     private String homeWorkName;
+
 }

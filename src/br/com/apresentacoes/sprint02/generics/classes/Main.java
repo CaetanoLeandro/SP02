@@ -15,5 +15,7 @@ public class Main {
         testGradeBook.addGrades(shaneTest);
         homeWorkGradeGrade.addGrades(shaneHomeWork);
 
+        System.out.println(shaneHomeWork.getGrade());
+
     }
 }
