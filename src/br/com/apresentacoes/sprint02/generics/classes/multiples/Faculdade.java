@@ -7,9 +7,8 @@ public class Faculdade<T, V>{
     V v;
 
     // utilizando Generics em Constructor
-    public Faculdade(T m, V n) {
-        this.t = m;
-        this.v = n;
+    public Faculdade(T t, V v) {
+        this.t = t;
+        this.v = v;
     }
-
 }
