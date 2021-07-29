@@ -30,7 +30,7 @@ public class Main {
         LocalDate nascimento = LocalDate.of(2001, Month.OCTOBER, 19);
         LocalDate hoje = LocalDate.now();
         Period idade = Period.between(nascimento, hoje);
-        System.out.println(idade);
+        System.out.println("Minha idade: "+ idade);
 
 
         // erro em tempo de execucao

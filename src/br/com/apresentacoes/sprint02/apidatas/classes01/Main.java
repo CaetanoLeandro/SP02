@@ -24,11 +24,10 @@ public class Main {
 
         // chain plus/minus
         LocalDate ld4 = LocalDate.now();
-        System.out.println(ld4.plusWeeks(2).minusWeeks(45).plusDays(131));
+        System.out.println(ld4.plusYears(30).minusMonths(50).plusDays(131));
 
         // erro em tempo de execucao - valores invalidos
         // LocalDate ld5 = LocalDate.of(2002,13,23); // mes 13
-
 
 
 

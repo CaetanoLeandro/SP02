@@ -14,7 +14,6 @@ public class Main {
         System.out.println(num.get());       // pega o valor no Optional, mas se nao tiver valor lança exception
 
 
-
         // outras maneiras de pegar valor no Optional ao inves de get()
         Integer numero = convertNumber(s)
                 //.ifPresent(System.out::println);  // só executa lambda ou method reference se tiver valor
@@ -25,9 +24,9 @@ public class Main {
         System.out.println(numero);
 
 
-
+        // Optional em streams
        Stream.of(1, 2, 3)
-                .findFirst()
+                .findFirst()  // retorna o primeiro valor
                 .ifPresent(System.out::println);
 
     }
