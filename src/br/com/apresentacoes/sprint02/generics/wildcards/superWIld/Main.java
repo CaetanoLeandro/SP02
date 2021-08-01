@@ -11,13 +11,11 @@ public class Main {
         List<Cat> catList = new ArrayList<>();
         List<MyCat> myCatList = new ArrayList<>();
         List<Dog> dogList = new ArrayList<>();
-        List<Snake> snakeList = new ArrayList<>();
 
         catMethod.addMethod(animalList);
         catMethod.addMethod(catList);
-//      catMethod.addMethod(myCatList);
-//      catMethod.addMethod(dogList);
-//      catMethod.addMethod(snakeList);
+//        catMethod.addMethod(myCatList);
+//        catMethod.addMethod(dogList);
 
     }
 }

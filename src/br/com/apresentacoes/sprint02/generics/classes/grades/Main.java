@@ -2,7 +2,7 @@ package br.com.apresentacoes.sprint02.generics.classes.grades;
 
 public class Main {
     public static void main(String[] args) {
-        HomeWorkGrade shaneHomeWork = new HomeWorkGrade("Shane", "TestA");
+        HomeWorkGrade shaneHomeWork = new HomeWorkGrade("Shane", "HomeWork A");
         shaneHomeWork.setGrade(6.4);
 
         TestGrade shaneTest = new TestGrade("Shane", "Math Test 2");

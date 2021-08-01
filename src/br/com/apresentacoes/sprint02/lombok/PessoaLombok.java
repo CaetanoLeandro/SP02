@@ -1,5 +1,7 @@
 package br.com.apresentacoes.sprint02.lombok;
 
+import lombok.AllArgsConstructor;
+
 import java.time.LocalTime;
 import java.util.Objects;
 
@@ -110,6 +112,7 @@ public class PessoaLombok {
 LOMBOK:
 
 @AllArgsConstructor
+@AllArgsConstructor(staticName = "of")
 @Getter
 @Setter
 @EqualsAndHashCode

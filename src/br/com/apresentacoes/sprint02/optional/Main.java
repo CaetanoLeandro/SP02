@@ -34,7 +34,7 @@ public class Main {
     public static Optional<Integer> convertNumber(String numberStr){
             try {
                 Integer integer = Integer.valueOf(numberStr);
-                return Optional.of(integer);  // armazena valores
+                return Optional.of(integer);  // metodo of() armazena valores
             }catch (Exception e){
                 return Optional.empty();  // retorna uma instancia de Optional vazio
             }

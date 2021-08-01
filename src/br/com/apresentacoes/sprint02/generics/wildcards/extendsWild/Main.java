@@ -59,16 +59,16 @@ public class Main {
         process.processFruits(apple);
 
         Fruits process2 = new Fruits();
-        process.processFruits(oranges);
+        process2.processFruits(oranges);
 
         Fruits process3 = new Fruits();
-        process.processFruits(grapes);
+        process3.processFruits(grapes);
 
         Fruits process4 = new Fruits();
-        process.processFruits(lemons);
+        process4.processFruits(lemons);
 
         Fruits process5 = new Fruits();
-        process.processFruits(pineapples);
+        process5.processFruits(pineapples);
 
     }
 }
