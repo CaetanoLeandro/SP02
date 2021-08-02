@@ -43,7 +43,7 @@ public class Main {
 
 
 
-        // Parse
+        // Parse - transforma a String
         DateTimeFormatter formatterHora = DateTimeFormatter.ofPattern("HH:mm:ss");
         TemporalAccessor parse = formatterHora.parse("12:00:22");
         System.out.println(parse);
