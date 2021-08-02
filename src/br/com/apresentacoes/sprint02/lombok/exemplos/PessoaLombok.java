@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.lombok;
+package br.com.apresentacoes.sprint02.lombok.exemplos;
 
 import java.time.LocalTime;
 import java.util.Objects;

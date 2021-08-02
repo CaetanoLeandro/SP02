@@ -1,6 +1,8 @@
-package br.com.apresentacoes.sprint02.lombok;
+package br.com.apresentacoes.sprint02.lombok.exemplos;
 
-import lombok.*;
+import lombok.Builder;
+import lombok.Data;
+
 import java.time.LocalTime;
 
 @Builder
