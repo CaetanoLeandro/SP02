@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.lombok.noargs;
+package br.com.apresentacoes.sprint02.lombok.constructor.noargs;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

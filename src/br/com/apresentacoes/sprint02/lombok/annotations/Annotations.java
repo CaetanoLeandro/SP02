@@ -1,9 +1,9 @@
-package br.com.apresentacoes.sprint02.lombok.exemplos;
+package br.com.apresentacoes.sprint02.lombok.annotations;
 
 import java.time.LocalTime;
 import java.util.Objects;
 
-public class PessoaLombok {
+public class Annotations {
     private String nome;
     private int idade;
     private String cpf;
@@ -12,14 +12,14 @@ public class PessoaLombok {
     private LocalTime tempoLogin;
 
     // construtor com 3 parametros
-    public PessoaLombok(String nome, int idade, String cpf) {
+    public Annotations(String nome, int idade, String cpf) {
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
     }
 
     // construtor com todos parametros
-    public PessoaLombok(String nome, int idade, String cpf, String email, String endereco, LocalTime tempoLogin) {
+    public Annotations(String nome, int idade, String cpf, String email, String endereco, LocalTime tempoLogin) {
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
@@ -83,7 +83,7 @@ public class PessoaLombok {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        PessoaLombok that = (PessoaLombok) o;
+        Annotations that = (Annotations) o;
         return idade == that.idade && Objects.equals(nome, that.nome) && Objects.equals(cpf, that.cpf) && Objects.equals(email, that.email) && Objects.equals(endereco, that.endereco);
     }
 
@@ -110,11 +110,13 @@ public class PessoaLombok {
 LOMBOK:
 
 @AllArgsConstructor
+@Builder
 @Getter
 @Setter
 @EqualsAndHashCode
 @ToString
+
 @Data
-@Builder
+@Getter, @Setter, @RequiredArgsConstructor, @ToString, and @EqualsAndHashCode.
 
  */

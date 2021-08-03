@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.equalshashcode.example02;
+package br.com.apresentacoes.sprint01.equalshashcode.example02;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.lombok.superbuilder;
+package br.com.apresentacoes.sprint02.lombok.constructor.superbuilder;
 
 public class Main {
     public static void main(String[] args) {

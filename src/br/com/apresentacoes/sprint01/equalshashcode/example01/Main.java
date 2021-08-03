@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.equalshashcode.example01;
+package br.com.apresentacoes.sprint01.equalshashcode.example01;
 
 public class Main {
     public static void main(String[] args) {

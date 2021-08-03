@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.lambda.methodreference;
+package br.com.apresentacoes.sprint02.methodreference;
 
 import java.util.Arrays;
 import java.util.List;

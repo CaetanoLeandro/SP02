@@ -15,9 +15,10 @@ public class Main {
 
 
         // outras maneiras de pegar valor no Optional ao inves de get()
-        Integer numero = convertNumber(s)
-                //.ifPresent(System.out::println);  // só executa lambda ou method reference se tiver valor
-                .orElse(2); // retorna o valor presente, senao retorna o valor do parametro
+        Optional<Integer> numero = convertNumber(s);
+
+        numero.ifPresent(System.out::println);  // só executa lambda ou method reference se tiver valor
+                //.orElse(2); // retorna o valor presente, senao retorna o valor do parametro
                 //.orElseGet(() -> {return operacaoPesada();});  // executa uma operacao mais pesada se valor nao for presente
                 //.orElseThrow(() -> new NullPointerException("Empty value")); // return value if present or throw exception if no value is present
 
