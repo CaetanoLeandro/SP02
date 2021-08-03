@@ -110,7 +110,6 @@ public class Annotations {
 LOMBOK:
 
 @AllArgsConstructor
-@Builder
 @Getter
 @Setter
 @EqualsAndHashCode

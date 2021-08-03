@@ -3,8 +3,8 @@ package br.com.apresentacoes.sprint02.lombok.constructor.superbuilder;
 public class Main {
     public static void main(String[] args) {
 
-        // podemos fazer um construtor que possa ver as propriedades de seus ancestrais
-        // anotamos nossa classe e seus ancestrais com a anotação @SuperBuilder
+        // diferente do builder, superbuilder suporta atributos de superclasses, tambem classes abstratas
+        // se usar, tem que anotar na classe e nos seus ancestrais a anotação @SuperBuilder
 
         var name = Student.builder()
                 .childName("Giovane")
