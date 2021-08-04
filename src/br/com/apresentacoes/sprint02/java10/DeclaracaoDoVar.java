@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class DeclaracaoDoVar {
-
     // var nao funciona em variaveis globais
     String nome = "Giovane";
     //var nome2 = "Giovane"

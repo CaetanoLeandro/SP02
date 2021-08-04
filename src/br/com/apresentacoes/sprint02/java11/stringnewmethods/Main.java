@@ -83,6 +83,5 @@ public class Main {
         System.out.println("Sem strip: " + newMethods);
 
 
-
     }
 }
