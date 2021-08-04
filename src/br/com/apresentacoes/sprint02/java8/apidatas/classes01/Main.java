@@ -5,6 +5,7 @@ import java.time.*;
 public class Main {
     public static void main(String[] args) {
 
+        // representa data
         // metodo now()
         LocalDate ld1 = LocalDate.now();
         System.out.println(ld1);
@@ -41,7 +42,7 @@ public class Main {
         LocalDateTime ldt = LocalDateTime.now();
         System.out.println(ldt);
 
-        // representa um instante/momento na linha do tempo (milissegundos a partir de 01/01/1970 00:00:00)
+        // representa um instante/momento na linha do tempo (nanossegundos a partir de 01/01/1970 00:00:00)
         // GMT/UTC
         Instant it = Instant.now();
         System.out.println(it);
