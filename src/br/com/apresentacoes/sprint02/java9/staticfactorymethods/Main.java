@@ -29,5 +29,8 @@ public class Main {
 
         // Imutável - nao pode sofrer mudancas
         // of4.add(1);
+
+        // map.of
+        // set.of
     }
 }

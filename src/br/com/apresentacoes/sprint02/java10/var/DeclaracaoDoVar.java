@@ -1,4 +1,4 @@
-package br.com.apresentacoes.sprint02.java10;
+package br.com.apresentacoes.sprint02.java10.var;
 
 import java.util.List;
 import java.util.Scanner;
