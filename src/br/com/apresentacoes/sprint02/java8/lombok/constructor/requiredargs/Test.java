@@ -3,7 +3,7 @@ package br.com.apresentacoes.sprint02.java8.lombok.constructor.requiredargs;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
-@RequiredArgsConstructor
+// @RequiredArgsConstructor
 public class Test {
 
     private double id;
