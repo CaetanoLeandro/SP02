@@ -1,14 +1,11 @@
-package br.com.java9to11;
+package br.com.java9to11.jep323;
+
 //JEP 323: Local-Variable Syntax for Lambda Parameters
 // Possibiltou o uso da palavra reservada "VAR" dentro da função lambda
 
-import java.util.ArrayDeque;
-import java.util.HashMap;
 import java.util.List;
 
-public class jep323 {
-
-
+public class Jep323 {
 
     public static void main(String[] args) {
 
