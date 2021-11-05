@@ -1,6 +1,6 @@
 package br.com.sprint02.java8.interfacesfuncionais.criandofuncao;
 
-import br.com.apresentacoes.sprint02.java8.interfacesfuncionais.predicate.Product;
+import br.com.sprint02.java8.interfacesfuncionais.predicate.Product;
 
 import java.util.List;
 import java.util.function.Predicate;
