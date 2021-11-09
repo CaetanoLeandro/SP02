@@ -14,7 +14,7 @@ public class Test {
 
 
     // N0N-NULL ATRIBUTOS
-//    public Test(@NonNull String name, int idade) {
+//    public Main(@NonNull String name, int idade) {
 //        if (name == null) {
 //            throw new NullPointerException("name is marked non-null but is null");
 //        }
@@ -26,7 +26,7 @@ public class Test {
 
 
     // @AllArgsConstructor(access = AccessLevel.PRIVATE)
-//    private Test(String name, int idade) {
+//    private Main(String name, int idade) {
 //        this.idade = idade;
 //        this.name = name;
 //    }
@@ -36,7 +36,7 @@ public class Test {
 
     // @AllArgsConstructor nunca gera argumento de construtor para atributos estáticos para @AllArgsConstructor
     // @AllArgsConstructor nao gera argumento de construtor para atributos final com valores inicializados
-//    public Test(final double id, final int defaultRole) {
+//    public Main(final double id, final int defaultRole) {
 //        this.id = id;
 //        this.defaultRole = defaultRole;
 //    }

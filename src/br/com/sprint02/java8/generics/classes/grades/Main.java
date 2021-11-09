@@ -5,7 +5,7 @@ public class Main {
         HomeWorkGrade shaneHomeWork = new HomeWorkGrade("Shane", "HomeWork A");
         shaneHomeWork.setGrade(6.4);
 
-        TestGrade shaneTest = new TestGrade("Shane", "Math Test 2");
+        TestGrade shaneTest = new TestGrade("Shane", "Math Main 2");
         shaneTest.setGrade(8.9);
 
         GradeBook<TestGrade> testGradeBook = new GradeBook<>();
