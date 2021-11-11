@@ -1,7 +1,7 @@
 package br.com.sprint02.java8.optional;
 
-// É uma classe "tipada" e respeitamdfo o a semântica, usado para verificar a de o valor de um determinado o
-// bjeto é nulo, evitanto o "nullpointerexception"
+// É uma classe "tipada" que respeitando a semântica, é usado para verificar o valor de um determinado
+// objeto é nulo, evitanto o "nullpointerexception"
 // Permite o uso de dados primitivos
 
 import java.util.Optional;
@@ -10,8 +10,8 @@ public class JOptional {
 
     public static void main(String[] args) {
 
-        String s = "y";
-        //String s = "Teste";
+        String s = "1";
+        //String s = "UM";
 
         Optional<Integer> number = convertToNumber(s);
 
@@ -25,7 +25,7 @@ public class JOptional {
         //Integer number = convertToNumber(s).orElse(2);// Se o valor for inválido, ele retorna o valor
         //predeterminado(2)
 
-        //Integer number = convertToNumber(s).orElseGet(()-> 5); // Tem o comportamento parecido com orElse, poreém é
+        //Integer number = convertToNumber(s).orElseGet(()-> 5); // Tem o comportamento parecido com orElse, porém é
         // possível usar uma oreção, mais "pesada", porém só será executada, ao ser invocada.
         //Obs: Ela só recebe um valor válido , se houver um dentro.
 

@@ -3,6 +3,10 @@ package br.com.sprint02.java8.streams;
 import java.util.Arrays;
 import java.util.List;
 
+
+// Streams → API criada para facilitar a manipulação de dados de coleções,
+// evitando o sobrecarregamento das collectons
+
 public class Streams {
 
     public static void main(String[] args) {

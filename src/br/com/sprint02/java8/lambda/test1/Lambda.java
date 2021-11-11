@@ -9,7 +9,7 @@ public class Lambda {
 
         List<Integer> asList = Arrays.asList(1,2,3,4,5);
         asList.stream()
-                .filter(e -> e % 2 ==0)
+                .filter(e -> e % 2 ==0) //Numeros pares
                 .forEach(e -> System.out.println(e));
     }
 

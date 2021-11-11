@@ -3,6 +3,12 @@ package br.com.sprint02.java8.lambda;
 import java.util.Arrays;
 import java.util.List;
 
+
+//Redução de linha de código e viabilização de programação funcional
+//Criada para quando não será reaproveitada (performanc
+// (implementa apenas classes FUNCIONAIS (apenas um método).
+//Seu uso é indicado principalmente para o uso no método streams
+
 public class Main {
 
     public static void main(String[] args) {
@@ -19,8 +25,8 @@ public class Main {
              // do método). Neste caso, não há a necessidade de usar "Client c ", pois o compilador identifica o tipo,
              // automaticamente.
 
-            Runnable r = () -> System.out.println("Main Lambda"); //Neste caso não há necessidade de passar o parâmetro,
-            // pois dentro da classe há apenas argumento.
+            Runnable r = () -> System.out.println("Program Lambda"); //Neste caso não há necessidade de passar o
+            // parâmetro, pois dentro da classe há apenas argumento.
             new Thread(r).start();
 
         }
