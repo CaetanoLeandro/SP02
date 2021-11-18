@@ -1,0 +1,30 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ê¼Ë³8…â©šÓ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8†â©šÓ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8ˆâ©šÓ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8‰â©šÓ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ößŸ›8Šâ©šÓ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8‹â©šÓ/
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(³Òº’ıÿÿÿÿ8â©šÓ/
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8â©šÓ/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(¾”¼Šûÿÿÿÿ8â©šÓ/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8’â©šÓ/
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(¹­ş‰ÿÿÿÿÿ8’â©šÓ/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8“â©šÓ/
+t
+java:S62042"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ç§·Õşÿÿÿÿ8”â©šÓ/
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(€†­ğ8–â©šÓ/
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8—â©šÓ/
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(Ö‚·8—â©šÓ/
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8˜â©šÓ/
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(µˆœÑ8šâ©šÓ/
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8›â©šÓ/
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(ÀÇœ¹úÿÿÿÿ8œâ©šÓ/
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8â©šÓ/
+^
+java:S1612B"<Replace this lambda with method reference 'String::valueOf'.(ğ‹ûùÿÿÿÿ8â©šÓ/
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ8 â©šÓ/
+h
+java:S3655)"FCall "max.isPresent()" or "!max.isEmpty()" before accessing the value.(¾”¼Šûÿÿÿÿ8µâ©šÓ/
+h
+java:S3655""FCall "min.isPresent()" or "!min.isEmpty()" before accessing the value.(³Òº’ıÿÿÿÿ8¶â©šÓ/
