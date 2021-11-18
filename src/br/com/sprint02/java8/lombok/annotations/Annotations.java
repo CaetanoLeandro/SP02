@@ -3,6 +3,7 @@ package br.com.sprint02.java8.lombok.annotations;
 import java.time.LocalTime;
 import java.util.Objects;
 
+
 public class Annotations {
     private String nome;
     private int idade;

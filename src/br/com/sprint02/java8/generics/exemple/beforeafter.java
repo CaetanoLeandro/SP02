@@ -37,14 +37,5 @@ public class beforeafter{
         String item1 = itens1.get(0); //Sem casting
 
 
-
-//        VarAndCosnt<Integer, String> pessoa = new VarAndCosnt<>();
-//        pessoa.add(60, "Silva");
-//        pessoa.add(7, "Arthur");
-
-        // Generic com multiparametros
-        VarAndCosnt<Integer,String> pessoa1 = new VarAndCosnt<>();
-        VarAndCosnt<Integer,String> pessoa2 = new VarAndCosnt<>();
-
    }
 }

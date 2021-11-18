@@ -4,17 +4,16 @@ package br.com.sprint02.java8.lombok.constructor.noargs;
 public class Main {
     public static void main(String[] args) {
 
-        // construtor vazio = atributos caso nao estejam
-        // setados ficarão com o valor padrão do seu tipo
-        var nameOne = new Person();
+        // Construtor vazio
+        var emp1 = new employee();
 
-        System.out.println(nameOne);
+        System.out.println(emp1);
 
-        // exemplo construtor com atributos setados
-        Person nameTwo = new Person("Giovane", 19);
+        // Construtor com atributos
+        employee emp2 = new employee("Leandro", 123456);
 
-        System.out.println(nameTwo.getName());
-        System.out.println(nameTwo.getIdade());
+        System.out.println(emp2.getName());
+        System.out.println(emp2.getId());
 
     }
 }

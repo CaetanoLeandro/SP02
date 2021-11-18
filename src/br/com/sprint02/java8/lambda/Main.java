@@ -5,7 +5,7 @@ import java.util.List;
 
 
 //Redução de linha de código e viabilização de programação funcional
-//Criada para quando não será reaproveitada (performanc
+//Criada para quando não será reaproveitada (performance)
 // (implementa apenas classes FUNCIONAIS (apenas um método).
 //Seu uso é indicado principalmente para o uso no método streams
 
@@ -26,7 +26,7 @@ public class Main {
              // automaticamente.
 
             Runnable r = () -> System.out.println("Program Lambda"); //Neste caso não há necessidade de passar o
-            // parâmetro, pois dentro da classe há apenas argumento.
+            // parâmetro, pois dentro da classe há apenas método (funcional).
             new Thread(r).start();
 
         }
@@ -45,7 +45,7 @@ public class Main {
 // ShowClient mc = new ShowClient();
 // clientes.forEach(mc);
 
-// Consumer<Client> consumidor = new Consumer<Client>(){ //CLASSE ANÔNIMA tem apenas o m[étodo accpt
+// IConsumer<Client> consumidor = new IConsumer<Client>(){ //CLASSE ANÔNIMA tem apenas o m[étodo accpt
 //     public void accept(Client c){//Usado quando não há necessidade de reaproveitamento de código
 //usado em apenas em un determinado ponto do código
 //         System.out.println(c.getNome());

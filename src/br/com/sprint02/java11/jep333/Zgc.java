@@ -1,6 +1,9 @@
 package br.com.sprint02.java11.jep333;
 
 ///Scalable Low-Latency Garbage Collector
+//Os tempos de pausa do GC não devem exceder 10 ms
+//Lida com heaps que variam de relativamente pequenos
+//Não mais do que 15% de redução de taxa de transferência do aplicativo em comparação com o uso de G1
 
 public class Zgc {
 

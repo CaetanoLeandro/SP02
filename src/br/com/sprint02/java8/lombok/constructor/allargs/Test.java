@@ -1,44 +1,17 @@
 package br.com.sprint02.java8.lombok.constructor.allargs;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.ToString;
 
 @AllArgsConstructor
+@Data
+@ToString
 public class Test {
     private String name;
-    private int idade;
-
-    private static boolean defaultStatus;
+    private int employmentTime;
     private double id;
-    private final double minSalary = 10000.00;
-    private final int defaultRole;
-
-
-    // N0N-NULL ATRIBUTOS
-//    public Program(@NonNull String name, int idade) {
-//        if (name == null) {
-//            throw new NullPointerException("name is marked non-null but is null");
-//        }
-//        this.idade = idade;
-//        this.name = name;
-//    }
-
-
-
-
-    // @AllArgsConstructor(access = AccessLevel.PRIVATE)
-//    private Program(String name, int idade) {
-//        this.idade = idade;
-//        this.name = name;
-//    }
-
-
-
-
-    // @AllArgsConstructor nunca gera argumento de construtor para atributos estáticos para @AllArgsConstructor
-    // @AllArgsConstructor nao gera argumento de construtor para atributos final com valores inicializados
-//    public Program(final double id, final int defaultRole) {
-//        this.id = id;
-//        this.defaultRole = defaultRole;
-//    }
+    private final double salary = 5000.00;
+    String placeOfBirth = "Porto Alegre";
 
 }
